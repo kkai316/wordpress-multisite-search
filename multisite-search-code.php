@@ -14,8 +14,8 @@
 	    $text = '(' . $name . '|' . $blog_details->blogname .')';
 	    $reg =  '/^' . $text . '$/i';
 
-    	switch_to_blog($search_blog);  //switch blog to search
-    	//search arg goes here
+    	    switch_to_blog($search_blog);  //switch blog to search
+    	    //search arg goes here
 	    $arg = array(
 	    	'post_type' => array('post', 'page'),
 	    	's' => $searchTerm,
